@@ -48,9 +48,9 @@ fun BottomNavigationComponent(navController: NavController) {
                         item.selectedIcon
                     } else item.unselectedIcon,
                     contentDescription = item.title,
-                    tint = Color.Black,
+                    tint = Color.Blue,
                 )
-            }, colors = NavigationBarItemDefaults.colors(indicatorColor = Color.Gray))
+            }, colors = NavigationBarItemDefaults.colors(indicatorColor = Color.Black))
         }
     }
 }
